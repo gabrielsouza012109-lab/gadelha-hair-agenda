@@ -38,6 +38,7 @@ const SERVICES = [
   "Coloração",
   "Hidratação",
   "Progressiva",
+  "Selagem",
   "Mechas / Luzes",
 ];
 
@@ -47,6 +48,7 @@ const SERVICE_DURATIONS: Record<string, number> = {
   Coloração: 120,
   Hidratação: 60,
   Progressiva: 180,
+  Selagem: 120,
   "Mechas / Luzes": 180,
 };
 
