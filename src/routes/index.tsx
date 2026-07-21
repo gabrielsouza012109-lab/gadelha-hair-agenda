@@ -596,7 +596,7 @@ function AppointmentDialog({
   };
 
   return (
-    <DialogContent className="sm:max-w-xl">
+    <DialogContent className="sm:max-w-xl max-h-[90vh] overflow-y-auto">
       <DialogHeader>
         <DialogTitle className="font-display text-2xl">
           {isEditing ? "Editar agendamento" : "Novo agendamento"}
