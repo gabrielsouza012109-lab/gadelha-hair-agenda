@@ -241,7 +241,7 @@ function Home() {
 
           <Dialog
             open={open}
-            onOpenChange={(isOpen) => {
+            onOpenChange={(isOpen: boolean) => {
               setOpen(isOpen);
               if (!isOpen) setEditingAppointment(null);
             }}
